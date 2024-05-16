@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ProductList from "./components/ProductList";
 
@@ -9,7 +8,7 @@ function App() {
         <h1>My Shopping Platform</h1>
       </header>
       <main>
-        <ProductList />
+        <ProductList/>
       </main>
     </div>
   );

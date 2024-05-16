@@ -26,9 +26,9 @@ const ProductList = () => {
     };
 
     return (
-        <div>
+        <div className="product-list">
             {products.map(product => (
-                <div key={product.id}>
+                <div key={product.id} className="product-item">
                     <img src={product.imageUrl} alt={product.name} />
                     <p>{product.name}</p>
                     <p>Price: {product.price}</p>
